@@ -1,12 +1,15 @@
 import React from 'react'
-import { ThingProps } from '../Thing/Thing'
 
-export interface OrgProps extends ThingProps {}
+export interface ThingProps {
+  name: string,
+  url?: string,
+  description?: string
+}
 
 /**
- * @param {OrgProps} props
+ * @param {ThingProps} props
  */
-export default function Organization(props: OrgProps) {
+export default function Thing(props: ThingProps) {
   let schema = {
     "@context": "https://schema.org",
     "@type": "Organization",
