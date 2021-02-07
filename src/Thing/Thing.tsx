@@ -9,7 +9,7 @@ export interface ThingProps {
 /**
  * @param {ThingProps} props
  */
-export default function Thing(props: ThingProps) {
+export function Thing(props: ThingProps) {
   let schema = {
     "@context": "https://schema.org",
     "@type": "Thing",
@@ -24,3 +24,5 @@ export default function Thing(props: ThingProps) {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
   />
 }
+
+export default Thing

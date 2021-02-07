@@ -6,7 +6,7 @@ export interface OrgProps extends ThingProps {}
 /**
  * @param {OrgProps} props
  */
-export default function Organization(props: OrgProps) {
+export function Organization(props: OrgProps) {
   let schema = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -21,3 +21,5 @@ export default function Organization(props: OrgProps) {
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
   />
 }
+
+export default Organization
