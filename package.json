@@ -10,5 +10,12 @@
     "json-ld"
   ],
   "author": "David Craig",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "react": "^17.0.1"
+  }
 }
