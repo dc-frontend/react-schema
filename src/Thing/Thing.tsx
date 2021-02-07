@@ -12,7 +12,7 @@ export interface ThingProps {
 export default function Thing(props: ThingProps) {
   let schema = {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": "Thing",
     "name": props.name
   }
 
