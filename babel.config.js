@@ -13,8 +13,9 @@ if (NodeEnv == 'test') {
 module.exports = {
   presets: [
     '@babel/preset-env',
-    '@babel/preset-react'
+    '@babel/preset-typescript',
+    '@babel/preset-react',
   ],
   ignore: BabelIgnore,
-  plugins: ["react-docgen"]
+  // plugins: ["react-docgen"]
 }
