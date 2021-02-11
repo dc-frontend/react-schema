@@ -1,7 +1,7 @@
 import React from 'react'
 import Context from '../Context'
 
-const optionalProps = [
+export const OptionalThingProps = [
   'url',
   'description'
 ]
@@ -15,7 +15,7 @@ export interface ThingProps {
 export function ThingJson(props: ThingProps) {
   let schema = { 'name': props.name, '@type': 'Thing' }
 
-  optionalProps.forEach(p => {
+  OptionalThingProps.forEach(p => {
     if (props[p]) { schema[p] = props[p] }
   })
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { ThingProps } from '../Thing/Thing'
+import { ThingProps, OptionalThingProps } from '../Thing/Thing'
 import Context from '../Context'
 
 const optionalProps = [
@@ -13,6 +13,7 @@ const optionalProps = [
   'hasOccupation',
   'nationality',
   'worksFor',
+  ...OptionalThingProps
 ]
 
 export interface PersonProps extends ThingProps {

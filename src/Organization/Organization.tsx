@@ -1,5 +1,5 @@
 import React from 'react'
-import { ThingProps } from '../Thing/Thing'
+import { ThingProps, OptionalThingProps } from '../Thing/Thing'
 import Context from '../Context'
 
 const optionalProps = [
@@ -8,7 +8,8 @@ const optionalProps = [
   'globalLocationNumber',
   'isicV4',
   'naics',
-  'taxID'
+  'taxID',
+  ...OptionalThingProps
 ]
 
 export interface OrgProps extends ThingProps {
