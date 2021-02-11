@@ -1,3 +1,7 @@
+### v1.0.6 - 2021-02-11
+
+ - Add Person type to exports.
+
 ### v1.0.5 - 2021-02-11
 
  - Refactor way properties are converted to json.

@@ -9,6 +9,12 @@ Object.defineProperty(exports, "Organization", {
     return _Organization.Organization;
   }
 });
+Object.defineProperty(exports, "Person", {
+  enumerable: true,
+  get: function get() {
+    return _Person.Person;
+  }
+});
 Object.defineProperty(exports, "Thing", {
   enumerable: true,
   get: function get() {
@@ -17,5 +23,7 @@ Object.defineProperty(exports, "Thing", {
 });
 
 var _Organization = require("./dist/Organization/Organization");
+
+var _Person = require("./dist/Person/Person");
 
 var _Thing = require("./dist/Thing/Thing");
