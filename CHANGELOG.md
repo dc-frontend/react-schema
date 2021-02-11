@@ -5,9 +5,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+
+## [1.0.8] - 2021-02-11
 ### Added
 
  - Add `sameAs` prop to `Thing`
+ - Add `CreativeWork`, `WebPage` and `WebSite` types.
+ - Add `PersonOrOrg` type.
+
+### Changed
+
+ - Add more properties to `CreativeWork` and `Thing`
 
 ## [1.0.7] - 2021-02-11
 ### Changed

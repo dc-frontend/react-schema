@@ -2,16 +2,26 @@ import React from 'react'
 import Context from '../Context'
 
 export const OptionalThingProps = [
-  'url',
+  'alternateName',
   'description',
-  'sameAs'
+  'identifier',
+  'mainEntityOfPage',
+  'potentialAction',
+  'sameAs',
+  'subjectOf',
+  'url',
 ]
 
 export interface ThingProps {
   name: string,
-  url?: string,
+  alternateName?: string,
   description?: string,
-  sameAs?: string
+  identifier?: string,
+  mainEntityOfPage?: any, // CreativeWork or URL (string)
+  potentialAction?: object, // Action
+  sameAs?: string,
+  subjectOf?: object, // CreativeWork or Event
+  url?: string,
 }
 
 export function ThingJson(props: ThingProps) {
