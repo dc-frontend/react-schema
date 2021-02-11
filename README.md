@@ -31,7 +31,7 @@ With nested properties (using json) (not recommended):
 
 With generated json from nested modules:
 
-| Note: Each class exports the Json builder, these methods should also be chainable
+| Note: Each module exports their Json builder function.
 
     import { WebSite } from '@davidcraig/react-schema
     import { PersonJson } from '@davidcraig/react-schema/dist/Person/Person'
