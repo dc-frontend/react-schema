@@ -39,3 +39,7 @@ Each class exports the Json builder, these methods should also be chainable
         })
       }
     />
+
+## Resources
+
+ - [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool/) - Deprecated but still working for now.
