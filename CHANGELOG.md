@@ -1,6 +1,7 @@
 ### v1.0.7 - 2021-02-11
 
- - Thing.jsx export OptionalThingProps
+ - Thing.jsx export `OptionalThingProps`.
+ - Add OptionalThingProps into child types.
 
 ### v1.0.6 - 2021-02-11
 
