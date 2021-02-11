@@ -1,6 +1,6 @@
 {
   "name": "@davidcraig/react-schema",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A collection of commonly used json-ld schema helper functions for react apps.",
   "main": "main.js",
   "scripts": {
