@@ -37,9 +37,6 @@ export function OrganizationJson(props: OrgProps) {
 export function Organization(props: OrgProps) {
   const schema = Context(OrganizationJson(props))
 
-  if (props.url) { schema['url'] = props.url }
-  if (props.description) { schema['description'] = props.description }
-
   return <script
     type='application/ld+json'
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
