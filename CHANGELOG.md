@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [1.0.7] - 2021-02-11
-### Added
+### Changed
 
  - Thing.jsx export `OptionalThingProps`.
  - Add OptionalThingProps into child types.
@@ -21,12 +21,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.5] - 2021-02-11
 ### Added
 
- - Refactor way properties are converted to json.
+- Create Person type.
  - Add Context function to be added in the outer json.
- - Create Person type.
+
+### Changed
+
+ - Refactor way properties are converted to json.
 
 ## [1.0.4] - 2021-02-07
-### Added
+### Fixed
 
  - Attempt to fix export issue
 
