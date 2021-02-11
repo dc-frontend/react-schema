@@ -3,10 +3,16 @@ import { OptionalThingProps, ThingProps } from '../Thing/Thing'
 import Context from '../Context'
 
 const optionalProps = [
+  'qualifications',
+  'responsibilities',
+  'skills',
   ...OptionalThingProps
 ]
 
 export interface OccupationProps extends ThingProps {
+  qualifications?: string,
+  responsibilities?: string,
+  skills?: string
 }
 
 /**
