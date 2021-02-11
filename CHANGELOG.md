@@ -1,3 +1,9 @@
+### v1.0.5 - 2021-02-11
+
+ - Refactor way properties are converted to json.
+ - Add Context function to be added in the outer json.
+ - Create Person type.
+
 ### v1.0.4 - 2021-02-07
 
  - Attempt to fix export issue

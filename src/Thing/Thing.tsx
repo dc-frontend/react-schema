@@ -1,4 +1,10 @@
 import React from 'react'
+import Context from '../Context'
+
+const optionalProps = [
+  'url',
+  'description'
+]
 
 export interface ThingProps {
   name: string,
@@ -6,18 +12,21 @@ export interface ThingProps {
   description?: string
 }
 
+export function ThingJson(props: ThingProps) {
+  let schema = { 'name': props.name, '@type': 'Thing' }
+
+  optionalProps.forEach(p => {
+    if (props[p]) { schema[p] = props[p] }
+  })
+
+  return schema
+}
+
 /**
  * @param {ThingProps} props
  */
 export function Thing(props: ThingProps) {
-  let schema = {
-    "@context": "https://schema.org",
-    "@type": "Thing",
-    "name": props.name
-  }
-
-  if (props.url) { schema['url'] = props.url }
-  if (props.description) { schema['description'] = props.description }
+  const schema = Context(ThingJson(props))
 
   return <script
     type='application/ld+json'
