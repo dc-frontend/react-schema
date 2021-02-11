@@ -3,13 +3,15 @@ import Context from '../Context'
 
 export const OptionalThingProps = [
   'url',
-  'description'
+  'description',
+  'sameAs'
 ]
 
 export interface ThingProps {
   name: string,
   url?: string,
-  description?: string
+  description?: string,
+  sameAs?: string
 }
 
 export function ThingJson(props: ThingProps) {
