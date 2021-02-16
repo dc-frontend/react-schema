@@ -1,5 +1,4 @@
 import React from 'react'
-import { PersonProps } from '../../Person/Person'
 import { CreativeWorkOptionalProps, CreativeWorkProps } from '../CreativeWork'
 import Context from '../../Context'
 
