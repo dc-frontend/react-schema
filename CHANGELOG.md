@@ -5,10 +5,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [1.0.10] - 2021-02-16
 ### Added
 
- - Add `Occupation`
- - Add `OccupationJson` as type for `hasOccupation` on `Person`
+ - Add `Blog` type.
+ - Add `Article` type.
+ - Add `SocialMediaPosting` type.
+ - Add `BlogPosting` type.
+
+### Added
+
+ - Add `Occupation`.
+ - Add `OccupationJson` as type for `hasOccupation` on `Person`.
 
 ## [1.0.9] - 2021-02-11
 ### Fixed
